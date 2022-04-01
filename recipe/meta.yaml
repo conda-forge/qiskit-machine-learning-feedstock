@@ -1,5 +1,5 @@
 {% set name = "qiskit-machine-learning" %}
-{% set version = "0.3.0" %}
+{% set version = "0.3.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/qiskit-machine-learning-{{ version }}.tar.gz
-  sha256: ab270274a23e0aa0d140d73ff62792adf525da17e6bd20f3bad6a97c58f5674e
+  sha256: 4096f8107d1477d61155bff51ea88b14cea946f7a2ad30291f190b94d073ad53
 
 build:
   number: 0
