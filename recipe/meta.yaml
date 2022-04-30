@@ -1,5 +1,5 @@
 {% set name = "qiskit-machine-learning" %}
-{% set version = "0.3.1" %}
+{% set version = "0.4.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/qiskit-machine-learning-{{ version }}.tar.gz
-  sha256: 4096f8107d1477d61155bff51ea88b14cea946f7a2ad30291f190b94d073ad53
+  sha256: 8534b4cbc8cebaf527487f3a91606f9adc0c4aef8ceb3b91d428203b6a0f5377
 
 build:
   number: 0
@@ -18,15 +18,15 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.7
     - setuptools >=40.1.0
   run:
     - dill >=0.3.4
     - fastdtw
     - numpy >=1.17
     - psutil >=5
-    - python >=3.6
-    - qiskit-terra >=0.19.1
+    - python >=3.7
+    - qiskit-terra >=0.20.0
     - scikit-learn >=0.20.0
     - scipy >=1.4
     - setuptools >=40.1.0
