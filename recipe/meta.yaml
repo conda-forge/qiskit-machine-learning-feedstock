@@ -21,12 +21,12 @@ requirements:
     - python >=3.7
     - setuptools >=40.1.0
   run:
-    - dill >=0.3.4
+    - dill >=0.3.4,<0.3.6
     - fastdtw
     - numpy >=1.17
     - psutil >=5
     - python >=3.7
-    - qiskit-terra >=0.20.0
+    - qiskit-terra >=0.22
     - scikit-learn >=0.20.0
     - scipy >=1.4
     - setuptools >=40.1.0
