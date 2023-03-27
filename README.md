@@ -1,11 +1,11 @@
-About qiskit-machine-learning
-=============================
+About qiskit-machine-learning-feedstock
+=======================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/qiskit-machine-learning-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/Qiskit/qiskit-machine-learning
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/qiskit-machine-learning-feedstock/blob/main/LICENSE.txt)
 
 Summary: Qiskit Machine Learning: A library of quantum computing machine learning experiments
 
