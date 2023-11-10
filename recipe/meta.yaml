@@ -18,7 +18,7 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python >=3.8
     - setuptools >=40.1.0
   run:
     - qiskit >=0.44
@@ -27,8 +27,7 @@ requirements:
     - fastdtw
     - numpy >=1.17
     - psutil >=5
-    - python >=3.7
-    - qiskit-terra >=0.22.2
+    - python >=3.8
     - scikit-learn >=1.2.0
     - scipy >=1.4
     - setuptools >=40.1.0
