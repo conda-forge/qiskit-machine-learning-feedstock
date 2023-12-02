@@ -19,7 +19,7 @@ requirements:
   host:
     - pip
     - python >=3.8
-    - setuptools >=40.1.0
+    - setuptools
   run:
     - qiskit >=0.44
     - qiskit-algorithms >=0.2.0
