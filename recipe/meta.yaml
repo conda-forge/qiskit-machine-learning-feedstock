@@ -1,5 +1,5 @@
 {% set name = "qiskit-machine-learning" %}
-{% set version = "0.7.2" %}
+{% set version = "0.8.0" %}
 
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/qiskit-machine-learning-{{ version }}.tar.gz
-  sha256: cd0a7cc562304ff74d4151d627d163a02d2f1d83e61e35b97e0a913141237964
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: f7a4856e066340d49679f196eb624ee36bc916d5b46b3a9a31a8bc70b9a3f21f
 
 build:
   number: 0
@@ -21,7 +21,7 @@ requirements:
     - python >=3.8
     - setuptools
   run:
-    - qiskit >=0.44
+    - qiskit >=1.0
     - qiskit-algorithms >=0.2.0
     - dill >=0.3.4
     - fastdtw
