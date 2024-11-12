@@ -11,23 +11,22 @@ source:
   sha256: f7a4856e066340d49679f196eb624ee36bc916d5b46b3a9a31a8bc70b9a3f21f
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
     - pip
-    - python >=3.8
+    - python >=3.9
     - setuptools
   run:
     - qiskit >=1.0
-    - qiskit-algorithms >=0.2.0
     - dill >=0.3.4
     - fastdtw
     - numpy >=1.17
     - psutil >=5
-    - python >=3.8
+    - python >=3.9
     - scikit-learn >=1.2.0
     - scipy >=1.4
     - setuptools >=40.1.0
