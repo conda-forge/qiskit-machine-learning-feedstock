@@ -11,7 +11,7 @@ source:
   sha256: 4bdac19aab6e5596aee34b2f5ac2697bef594117d505cd050935b8596b1bc9b4
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -23,7 +23,6 @@ requirements:
   run:
     - qiskit >=1.0
     - dill >=0.3.4
-    - fastdtw
     - numpy >=1.17
     - psutil >=5
     - python >=3.9
