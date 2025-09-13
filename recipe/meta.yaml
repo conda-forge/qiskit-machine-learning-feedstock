@@ -1,5 +1,5 @@
 {% set name = "qiskit-machine-learning" %}
-{% set version = "0.8.3" %}
+{% set version = "0.8.4" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 8520df316c597a0aac7eb13b839ad43827c4350cb55332f401aed0c345212509
+  sha256: c4f805bac8206175c8277d6c9138fbf7867cb1756d8ec0f48c0113910726dcc0
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -26,7 +26,7 @@ requirements:
     - numpy >=2.0
     - python >={{ python_min }}
     - scikit-learn >=1.2
-    - scipy >=1.4
+    - scipy >=1.4,<1.16
     - setuptools >=40.1
 
 test:
